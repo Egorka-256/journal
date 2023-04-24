@@ -2,10 +2,10 @@ const color = document.getElementById("color");
 
 color.onclick = function () {
     let theme = document.getElementById("theme");
-    if (theme.getAttribute("href") == "../black.css") {
-        theme.href = "../white.css";
+    if (theme.getAttribute("href") == "../css/black.css") {
+        theme.href = "../css/white.css";
     } else {
-        theme.href = "../black.css";
+        theme.href = "../css/black.css";
     }
 
     if (color.innerHTML == "<h2>🌙</h2>") {
